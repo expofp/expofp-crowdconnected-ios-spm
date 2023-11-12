@@ -1,0 +1,11 @@
+framework module ExpoFpCrowdConnected {
+  umbrella header "ExpoFpCrowdConnected.h"
+  export *
+
+  module * { export * }
+}
+
+module ExpoFpCrowdConnected.Swift {
+  header "ExpoFpCrowdConnected-Swift.h"
+  requires objc
+}
