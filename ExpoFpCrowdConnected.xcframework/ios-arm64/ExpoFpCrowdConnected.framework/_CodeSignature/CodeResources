@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/ExpoFpCrowdConnected.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		lsLMI19brc7baDTHWL7gI8iXhNE=
+		fYdOA/3J8x+boF/sefStgeiO1OM=
 		</data>
 		<key>Modules/ExpoFpCrowdConnected.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/ExpoFpCrowdConnected.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		9+mTqqeOVTauAph8mj49n3msKyQ=
+		420r/m/RgO6ewQ4DRVvIrx7uhmo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,7 +61,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YvVayrzcNIImJCUJh20YNuif4u5RUiHnqVB0rBlEbuQ=
+			0ARm+F103cR6uUp1+qGuVEsjpcw2fRu7gioiWfH2DCs=
 			</data>
 		</dict>
 		<key>Modules/ExpoFpCrowdConnected.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rY140kEHgSOsk+J7WifqR7Bq1Bg4MAdT8oeSlfmpxUA=
+			mioNMD8kThhkFS7N8qrjP41qnUVnje2ZLw/8NFxbQ6M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
