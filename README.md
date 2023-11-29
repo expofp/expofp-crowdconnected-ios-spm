@@ -1,3 +1,1 @@
-# ExpoFpCrowdConnected
-
-A description of this package.
+# expofp-crowdconnected-ios-src
