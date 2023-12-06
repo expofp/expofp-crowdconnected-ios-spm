@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		y0jB0UOYw+lHsTJqk2rHjhQMUK8=
+		v7Cektj+XBHpKry6AaZuU3KMOqI=
 		</data>
 		<key>Modules/ExpoFpCrowdConnected.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/ExpoFpCrowdConnected.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		vK+5tw8ghoPg82vniFaQ2kzIxgY=
+		O2cutEidxmsdKd2dhNFW/K33+gM=
 		</data>
 		<key>Modules/ExpoFpCrowdConnected.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		ODrkam6Zds3+0Cgub6I8kOefPtc=
+		K2pwXK3cl/kDagRopDHczwkZDfM=
 		</data>
 		<key>Modules/ExpoFpCrowdConnected.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		vK+5tw8ghoPg82vniFaQ2kzIxgY=
+		O2cutEidxmsdKd2dhNFW/K33+gM=
 		</data>
 		<key>Modules/ExpoFpCrowdConnected.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		H2D3nwifCrwcT02kFjJsiQoRMrY=
+		ZQ8n2UcOyVb5YN0vbz67WXG/G60=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -68,28 +68,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gwRYGMP7xzSszTAZoMmn86A0uE2yxWuoyTHz6Xfyjds=
+			4SrFCVldvaudNjiEyifeqJ8lh/ESfAxpjvaE8evY2dc=
 			</data>
 		</dict>
 		<key>Modules/ExpoFpCrowdConnected.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tMPgu87eurepkION/ueZ9XF+GPif/dLV1JIle10LN8M=
+			Q/azNDOgWEKUz73mctjpt9SxU8LDWApdjHnld9AxZ64=
 			</data>
 		</dict>
 		<key>Modules/ExpoFpCrowdConnected.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gwRYGMP7xzSszTAZoMmn86A0uE2yxWuoyTHz6Xfyjds=
+			4SrFCVldvaudNjiEyifeqJ8lh/ESfAxpjvaE8evY2dc=
 			</data>
 		</dict>
 		<key>Modules/ExpoFpCrowdConnected.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T0SQaiXa5ZzGJdkowI0LyviO2DtYzWzlY+6IQXLPBeA=
+			Oxf6jpJ+1RAXib6e8NlqIIrknfhEUoh1vdv/yT7qTXg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
