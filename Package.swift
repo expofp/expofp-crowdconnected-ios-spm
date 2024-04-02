@@ -13,12 +13,12 @@ let package = Package(
             targets: ["ExpoFpCrowdConnectedTarget"]),
     ],
     dependencies: [
-    	.package(url: "https://github.com/expofp/expofp-common-ios-spm", exact: "4.3.1"),
+    	.package(url: "https://github.com/expofp/expofp-common-ios-spm", exact: "4.4.2"),
 
-        .package(url: "https://github.com/crowdconnected/crowdconnected-shared-ios", from: "1.6.1"),
-        .package(url: "https://github.com/crowdconnected/crowdconnected-core-ios", from: "1.6.1"),
-        .package(url: "https://github.com/crowdconnected/crowdconnected-ips-ios", from: "1.6.1"),
-        .package(url: "https://github.com/crowdconnected/crowdconnected-geo-ios", from: "1.6.1"),
+        .package(url: "https://github.com/crowdconnected/crowdconnected-shared-ios", from: "1.6.2"),
+        .package(url: "https://github.com/crowdconnected/crowdconnected-core-ios", from: "1.6.2"),
+        .package(url: "https://github.com/crowdconnected/crowdconnected-ips-ios", from: "1.6.2"),
+        .package(url: "https://github.com/crowdconnected/crowdconnected-geo-ios", from: "1.6.2"),
 
     ],
     targets: [
@@ -33,8 +33,10 @@ let package = Package(
 		        .product(name: "CrowdConnectedGeo", package: "crowdconnected-geo-ios"),
                 .target(name: "ExpoFpCrowdConnected")
             
-            ], path: "ExpoFpCrowdConnectedTarget"),
-
+            ], 
+            path: "ExpoFpCrowdConnectedTarget",
+            resources: [.copy("PrivacyInfo.xcprivacy")]
+        ),
         .binaryTarget(name: "ExpoFpCrowdConnected",
                       path: "ExpoFpCrowdConnected.xcframework"
                      ),

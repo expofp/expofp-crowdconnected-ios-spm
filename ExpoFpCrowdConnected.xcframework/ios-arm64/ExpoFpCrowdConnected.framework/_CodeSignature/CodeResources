@@ -34,11 +34,15 @@
 		</data>
 		<key>Modules/ExpoFpCrowdConnected.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		7lte2tqAcv9v39YWvPsnRqc6QW8=
+		pq7fXHCHP5leq7sAYC9nc860nr0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		ze+Qpk3Z0dlYIsMWo7O4qD3nyaY=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		0RESd+++ZxZWQhIEMSOOvP7phYs=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -89,7 +93,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xtLEiLW3fOlHtmV262eznJ2RRNADyXqvfWhqac7hTHs=
+			1XdHLpmZztxeYx6/Iu1LjtaGPUd5Qb4H7gH3VefP7Hg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -97,6 +101,13 @@
 			<key>hash2</key>
 			<data>
 			jW/w+0FEKVQkSS4vrltmD9gzVKvwDdJKg5w7eQ3vRBU=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pwgfFQbJDo5nMQDlwWHnZbi3piREbiC9S9bvrKgICLg=
 			</data>
 		</dict>
 	</dict>
