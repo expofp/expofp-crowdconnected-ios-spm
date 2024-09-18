@@ -13,12 +13,12 @@ let package = Package(
             targets: ["ExpoFpCrowdConnectedTarget"]),
     ],
     dependencies: [
-    	.package(url: "https://github.com/expofp/expofp-common-ios-spm", exact: "4.5.4"),
+    	.package(url: "https://github.com/expofp/expofp-common-ios-spm", exact: "4.5.5"),
 
-        .package(url: "https://github.com/crowdconnected/crowdconnected-shared-ios", from: "1.7.0"),
-        .package(url: "https://github.com/crowdconnected/crowdconnected-core-ios", from: "1.7.0"),
-        .package(url: "https://github.com/crowdconnected/crowdconnected-ips-ios", from: "1.7.0"),
-        .package(url: "https://github.com/crowdconnected/crowdconnected-geo-ios", from: "1.7.0"),
+        .package(url: "https://github.com/crowdconnected/crowdconnected-shared-ios", from: "1.6.0"),
+        .package(url: "https://github.com/crowdconnected/crowdconnected-core-ios", from: "1.6.0"),
+        .package(url: "https://github.com/crowdconnected/crowdconnected-ips-ios", from: "1.6.0"),
+        .package(url: "https://github.com/crowdconnected/crowdconnected-geo-ios", from: "1.6.0"),
 
     ],
     targets: [
