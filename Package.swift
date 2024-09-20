@@ -15,11 +15,11 @@ let package = Package(
     dependencies: [
     	.package(url: "https://github.com/expofp/expofp-common-ios-spm", exact: "4.5.6"),
 
-        .package(url: "https://github.com/aws-amplify/aws-sdk-ios-spm", from: "2.28.2"),
-        .package(url: "https://github.com/crowdconnected/crowdconnected-shared-ios", from: "1.6.0"),
-        .package(url: "https://github.com/crowdconnected/crowdconnected-core-ios", from: "1.6.0"),
-        .package(url: "https://github.com/crowdconnected/crowdconnected-ips-ios", from: "1.6.0"),
-        .package(url: "https://github.com/crowdconnected/crowdconnected-geo-ios", from: "1.6.0"),
+        .package(url: "https://github.com/aws-amplify/aws-sdk-ios-spm", .upToNextMinor(from: "2.28.2")),
+        .package(url: "https://github.com/crowdconnected/crowdconnected-shared-ios", .upToNextMinor(from: "1.6.0")),
+        .package(url: "https://github.com/crowdconnected/crowdconnected-core-ios", .upToNextMinor(from: "1.6.0")),
+        .package(url: "https://github.com/crowdconnected/crowdconnected-ips-ios", .upToNextMinor(from: "1.6.0")),
+        .package(url: "https://github.com/crowdconnected/crowdconnected-geo-ios", .upToNextMinor(from: "1.6.0")),
 
     ],
     targets: [
