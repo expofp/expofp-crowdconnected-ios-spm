@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
     	.package(url: "https://github.com/expofp/expofp-common-ios-spm", exact: "4.5.13"),
 
-        //.package(url: "https://github.com/aws-amplify/aws-sdk-ios-spm", .upToNextMinor(from: "2.28.2")),
+        .package(url: "https://github.com/aws-amplify/aws-sdk-ios-spm", .upToNextMinor(from: "2.28.2")),
         .package(url: "https://github.com/crowdconnected/crowdconnected-shared-ios", .upToNextMinor(from: "1.6.6")),
         .package(url: "https://github.com/crowdconnected/crowdconnected-core-ios", .upToNextMinor(from: "1.6.6")),
         .package(url: "https://github.com/crowdconnected/crowdconnected-ips-ios", .upToNextMinor(from: "1.6.6")),
@@ -28,7 +28,7 @@ let package = Package(
             dependencies: [
                 .product(name: "ExpoFpCommon", package: "expofp-common-ios-spm"),
 
-                //.product(name: "AWSiOSSDKV2", package: "aws-sdk-ios-spm"),
+                .product(name: "AWSiOSSDKV2", package: "aws-sdk-ios-spm"),
                 .product(name: "CrowdConnectedShared", package: "crowdconnected-shared-ios"),
                 .product(name: "CrowdConnectedCore", package: "crowdconnected-core-ios"),
 		        .product(name: "CrowdConnectedIPS", package: "crowdconnected-ips-ios"),
