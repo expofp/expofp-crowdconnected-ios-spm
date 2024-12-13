@@ -13,11 +13,12 @@ let package = Package(
             targets: ["ExpoFpCrowdConnectedTarget"]),
     ],
     dependencies: [
-    	.package(url: "https://github.com/expofp/expofp-common-ios-spm", exact: "4.7.1"),
+    	.package(url: "https://github.com/expofp/expofp-common-ios-spm", exact: "4.7.2"),
 
         //.package(url: "https://github.com/aws-amplify/aws-sdk-ios-spm", .upToNextMinor(from: "2.28.2")),
         .package(url: "https://github.com/crowdconnected/crowdconnected-shared-ios", .upToNextMinor(from: "1.6.6")),
         .package(url: "https://github.com/crowdconnected/crowdconnected-core-ios", .upToNextMinor(from: "1.6.6")),
+        .package(url: "https://github.com/crowdconnected/crowdconnected-core-bluetooth-ios", .upToNextMinor(from: "1.6.6")),
         .package(url: "https://github.com/crowdconnected/crowdconnected-ips-ios", .upToNextMinor(from: "1.6.6")),
         .package(url: "https://github.com/crowdconnected/crowdconnected-geo-ios", .upToNextMinor(from: "1.6.6")),
 
@@ -31,6 +32,7 @@ let package = Package(
                 //.product(name: "AWSiOSSDKV2", package: "aws-sdk-ios-spm"),
                 .product(name: "CrowdConnectedShared", package: "crowdconnected-shared-ios"),
                 .product(name: "CrowdConnectedCore", package: "crowdconnected-core-ios"),
+                .product(name: "CrowdConnectedCoreBluetooth", package: "crowdconnected-core-bluetooth-ios"),
 		        .product(name: "CrowdConnectedIPS", package: "crowdconnected-ips-ios"),
 		        .product(name: "CrowdConnectedGeo", package: "crowdconnected-geo-ios"),
                 .target(name: "ExpoFpCrowdConnected")
