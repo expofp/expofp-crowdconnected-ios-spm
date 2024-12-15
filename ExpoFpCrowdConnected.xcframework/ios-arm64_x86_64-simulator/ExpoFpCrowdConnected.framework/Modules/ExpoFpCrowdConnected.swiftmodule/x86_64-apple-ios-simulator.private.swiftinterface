@@ -19,10 +19,10 @@ public class Settings {
   final public let token: Swift.String
   final public let secret: Swift.String
   final public let mode: ExpoFpCrowdConnected.Mode
-  final public let isNavigationEnable: Swift.Bool
+  final public let inBackground: Swift.Bool
   public var aliases: [Swift.String : Swift.String]
-  public init(_ appKey: Swift.String, _ token: Swift.String, _ secret: Swift.String, _ mode: ExpoFpCrowdConnected.Mode = Mode.IPS_ONLY, aliases: [Swift.String : Swift.String] = [:])
-  public init(_ appKey: Swift.String, _ token: Swift.String, _ secret: Swift.String, _ mode: ExpoFpCrowdConnected.Mode = Mode.IPS_ONLY, aliases: [Swift.String : Swift.String] = [:], _ enableNavigation: Swift.Bool = false)
+  public init(appKey: Swift.String, token: Swift.String, secret: Swift.String, mode: ExpoFpCrowdConnected.Mode = Mode.IPS_ONLY, aliases: [Swift.String : Swift.String] = [:])
+  public init(appKey: Swift.String, token: Swift.String, secret: Swift.String, mode: ExpoFpCrowdConnected.Mode = Mode.IPS_ONLY, inBackground: Swift.Bool = false, aliases: [Swift.String : Swift.String] = [:])
   public func addAlias(_ key: Swift.String, _ value: Swift.String)
   @objc deinit
 }
@@ -36,6 +36,7 @@ public class Settings {
   public func start()
   public func stop()
   @objc public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateHeading newHeading: CoreLocation.CLHeading)
   @objc deinit
 }
 public enum Mode {
