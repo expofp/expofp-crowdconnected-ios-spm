@@ -13,7 +13,7 @@ let package = Package(
             targets: ["ExpoFpCrowdConnectedTarget"]),
     ],
     dependencies: [
-    	.package(url: "https://github.com/expofp/expofp-common-ios-spm", exact: "4.9.0"),
+    	.package(url: "https://github.com/expofp/expofp-common-ios-spm", exact: "4.9.1"),
 
         .package(url: "https://github.com/crowdconnected/crowdconnected-shared-ios", exact: "1.6.7"),
         .package(url: "https://github.com/crowdconnected/crowdconnected-core-ios", exact: "1.6.7"),
